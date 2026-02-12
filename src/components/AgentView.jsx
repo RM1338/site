@@ -14,8 +14,8 @@ const AgentView = () => {
                 <section>
                     <h2 className="text-lg font-normal mb-8">## About</h2>
                     <div className="space-y-6 text-slate-700 max-w-2xl">
-                        <p>A student and [product builder](https://en.wikipedia.org/wiki/Product_design) with a focus on engineering, AI systems, and technical architecture.</p>
-                        <p>I build autonomous, goal-driven systems that shift from suggestion-based tools to proactive execution, exploring the intersection of AI and human-AI collaboration.</p>
+                        <p>a software engineer [product builder](https://en.wikipedia.org/wiki/Product_design) with hands on experience in game developement, programming, building problem-solving products.</p>
+                        <p>a polymath, who bridges code architecture with real-world projects to create engaging, scalable apps and workflows.</p>
                     </div>
                 </section>
 
@@ -91,8 +91,8 @@ const AgentView = () => {
                                 <li>- **Hooked** by Nir Eyal</li>
                                 <li>- **The Lean Startup** by Eric Ries</li>
                                 <li>- **Zero to One** by Peter Thiel</li>
-                                <li>- **The Almanack of Naval Ravikant** by Eric Jorgenson</li>
-                                <li>- **Deep Work** by Cal Newport</li>
+                                <li>- **Atomic Habits** by James Clear</li>
+                                <li>- **The 48 Laws of Power** by Robert Greene</li>
                             </ul>
                         </div>
                         <p className="text-xs text-slate-400 italic mt-6">*and many more, these are just one of my best reads</p>
@@ -104,8 +104,9 @@ const AgentView = () => {
                     <h2 className="text-lg font-normal mb-6">## Get in Touch</h2>
                     <p className="mb-6 leading-relaxed">Connect with me on [LinkedIn](https://linkedin.com/in/ronelm) or shoot an [email](mailto:rma80070@gmail.com)</p>
                     <div className="space-y-2">
+                        <p>- Mail: [email](mailto:rma80070@gmail.com)</p>
+                        <p>- LinkedIn: [https://linkedin.com/in/ronelm](https://linkedin.com/in/ronelm)</p>
                         <p>- GitHub: [https://github.com/RM1338](https://github.com/RM1338)</p>
-                        <p>- Twitter: [https://twitter.com/ronelm](https://twitter.com/ronelm)</p>
                     </div>
                 </section>
 

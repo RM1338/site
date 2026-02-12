@@ -32,11 +32,11 @@ const ProjectCard = ({ title, description, tags, link, github }) => (
 const Projects = () => {
     const projects = [
         {
-            title: "E-Commerce Dashboard",
-            description: "A comprehensive analytics dashboard for online retailers. Features real-time data visualization, inventory management, and order tracking.",
-            tags: ["React", "D3.js", "Firebase", "Tailwind"],
+            title: "Swamoz AI",
+            description: "An open-source AI video dubbing platform for global creators. Features multi-language translation, voice cloning, and lip-sync synchronization.",
+            tags: ["React", "FFmpeg", "Whisper", "NLLB-200", "XTTS v2", "Wav2Lip", "PostgreSQL", "Redis"],
             link: "#",
-            github: "#"
+            github: "https://github.com/RM1338/SwamozAI"
         },
         {
             title: "Task Management App",

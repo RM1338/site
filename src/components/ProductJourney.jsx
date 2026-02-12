@@ -11,7 +11,7 @@ const ProductJourney = () => {
             </h3>
 
             <div className="bg-white border border-slate-100 rounded-xl p-6 md:p-7 shadow-sm transition-all hover:shadow-md">
-                <h2 className="text-base font-bold text-slate-900 mb-3 font-sans tracking-tight">
+                <h2 className="text-base font-normal text-slate-900 mb-3 font-sans tracking-tight">
                     The Product Building Journey
                 </h2>
 
@@ -40,7 +40,7 @@ const ProductJourney = () => {
                                 <p>
                                     Now I'm building Swamoz, a video dubbing platform with lip-sync using machine learning. Real users, real performance constraints, real technical debt. Synchronizing dubbed audio with mouth movements, handling multiple languages, deploying ML models in production. This is where all the fundamentals come together.
                                 </p>
-                                <p className="text-slate-900 font-bold mt-8">
+                                <p className="text-slate-900 font-normal mt-8">
                                     So yes, hard work and consistency pay off. Each product was a step forward, even when it didn't feel like it at the time.
                                 </p>
                             </div>

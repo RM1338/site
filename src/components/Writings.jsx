@@ -19,7 +19,7 @@ const Writings = () => {
         <section id="writings" className="py-12">
             <div className="flex justify-between items-end mb-8">
                 <h3 className="text-xs font-bold tracking-widest text-slate-400 uppercase">Writings & Blogs</h3>
-                <a href="https://medium.com/@ronelm" target="_blank" rel="noreferrer" className="text-xs font-bold tracking-widest text-slate-900 uppercase hover:underline">View All</a>
+                <a href="https://medium.com/@ronelmathew" target="_blank" rel="noreferrer" className="text-xs font-bold tracking-widest text-slate-900 uppercase hover:underline">View All</a>
             </div>
 
             <p className="max-w-2xl text-lg font-light leading-relaxed text-slate-800 mb-8">

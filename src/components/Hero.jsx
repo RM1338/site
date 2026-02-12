@@ -38,11 +38,11 @@ const Hero = () => {
 
                 <div className="space-y-6 text-lg md:text-xl text-slate-600 leading-relaxed font-normal text-left">
                     <p>
-                        a full-stack developer and <span className="underline decoration-slate-300 underline-offset-4 text-slate-900">product builder</span> with&nbsp;deep&nbsp;experience&nbsp;across <br className="hidden md:block" />
-                        engineering, product strategy, and user-centric design.
+                        a software enginer and <a href="https://en.wikipedia.org/wiki/Product_design" target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-4 text-slate-900">product builder</a> with&nbsp;hands&nbsp; on experience&nbsp;in <br className="hidden md:block" />
+                        game development, programming, and building problem-solving products.
                     </p>
                     <p>
-                        a <span className="underline decoration-slate-300 underline-offset-4 text-slate-900">polymath</span> who bridges technical architecture with business outcomes to create impactful, scalable solutions.
+                        a <a href="https://en.wikipedia.org/wiki/Polymath" target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-4 text-slate-900">polymath</a> who bridges code architecture with real-world projects to create engaging, scalable apps and workflows.
                     </p>
                 </div>
 

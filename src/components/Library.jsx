@@ -36,8 +36,8 @@ const Library = () => {
                         { title: "Hooked: How to Build Habit-Forming Products", author: "Nir Eyal" },
                         { title: "The Lean Startup", author: "Eric Ries" },
                         { title: "Zero to One", author: "Peter Thiel" },
-                        { title: "Deep Work", author: "Cal Newport" },
-                        { title: "The Almanack of Naval Ravikant", author: "Eric Jorgenson" },
+                        { title: "Atomic Habits", author: "James Clear" },
+                        { title: "The 48 Laws of Power", author: "Robert Greene" },
                     ]}
                 />
                 <p className="text-xs text-slate-400 italic mt-8">*and many more, these are just one of my best reads</p>
