@@ -38,7 +38,7 @@ const Hero = () => {
 
                 <div className="space-y-6 text-lg md:text-xl text-slate-600 leading-relaxed font-normal text-left">
                     <p>
-                        a software enginer and <a href="https://en.wikipedia.org/wiki/Product_design" target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-4 text-slate-900">product builder</a> with&nbsp;hands&nbsp; on experience&nbsp;in <br className="hidden md:block" />
+                        a software engineer and <a href="https://en.wikipedia.org/wiki/Product_design" target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-4 text-slate-900">product builder</a> with&nbsp;hands&nbsp; on experience&nbsp;in <br className="hidden md:block" />
                         game development, programming, and building problem-solving products.
                     </p>
                     <p>
