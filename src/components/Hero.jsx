@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Download } from 'lucide-react';
 
 import NeuralLandscape from './NeuralLandscape';
 import { profile } from '../data/profile';
@@ -45,18 +44,6 @@ const Hero = () => {
                             {renderInline(line, { linkClass: 'underline decoration-slate-300 underline-offset-4 text-slate-900' })}
                         </p>
                     ))}
-                </div>
-
-                <div className="flex items-center gap-4 pt-2">
-                    <a
-                        href={profile.resumeUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-900 text-white text-sm font-medium rounded-full hover:bg-slate-700 transition-colors active:scale-95"
-                    >
-                        <Download size={16} />
-                        Download CV
-                    </a>
                 </div>
 
                 <div className="pt-4 text-left">

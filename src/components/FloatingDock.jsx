@@ -1,12 +1,16 @@
-import { Github, Linkedin, Bot, User } from 'lucide-react';
+import { Github, Linkedin, FileText, Bot, User } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { profile } from '../data/profile';
 
-const DockItem = ({ icon: Icon, label, href }) => {
+const DockItem = ({ icon: Icon, label, href, external }) => {
+    const openNewTab = external ?? href.startsWith('http');
     return (
         <motion.a
             href={href}
-            target={href.startsWith('http') ? "_blank" : "_self"}
-            rel={href.startsWith('http') ? "noreferrer" : ""}
+            target={openNewTab ? "_blank" : "_self"}
+            rel={openNewTab ? "noreferrer" : ""}
+            aria-label={label}
+            title={label}
             className="p-3 text-slate-400 relative group flex items-center justify-center transition-colors hover:text-slate-900"
         >
             <motion.div
@@ -46,6 +50,7 @@ const FloatingDock = ({ isAgentMode, setIsAgentMode }) => {
 
                 <DockItem icon={Github} label="GitHub" href="https://github.com/RM1338" />
                 <DockItem icon={Linkedin} label="LinkedIn" href="https://linkedin.com/in/ronelm" />
+                <DockItem icon={FileText} label="Resume" href={profile.resumeUrl} external />
             </div>
         </div>
     );
