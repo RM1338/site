@@ -1,4 +1,5 @@
 import React from 'react';
+import { profile } from '../data/profile';
 
 const BookSection = ({ category, books }) => (
     <div className="mb-12">
@@ -20,27 +21,9 @@ const Library = () => {
             <h3 className="text-xs font-bold tracking-widest text-slate-400 uppercase mb-8">Library</h3>
 
             <div className="max-w-4xl">
-                <BookSection
-                    category="Dev"
-                    books={[
-                        { title: "Linux Kernel Development", author: "Robert Love" },
-                        { title: "Hacking: The Art of Exploitation", author: "Jon Erickson" },
-                        { title: "Linux in a Nutshell", author: "Ellen Siever, Stephen Figgins, et al." },
-                        { title: "The Art of Electronics", author: "Paul Horowitz and Winfield Hill" },
-                        { title: "Nmap Cookbook", author: "Nicholas Marsh" },
-                    ]}
-                />
-                <BookSection
-                    category="Casual Reads"
-                    books={[
-                        { title: "Hooked: How to Build Habit-Forming Products", author: "Nir Eyal" },
-                        { title: "The Lean Startup", author: "Eric Ries" },
-                        { title: "Zero to One", author: "Peter Thiel" },
-                        { title: "Atomic Habits", author: "James Clear" },
-                        { title: "The 48 Laws of Power", author: "Robert Greene" },
-                    ]}
-                />
-                <p className="text-xs text-slate-400 italic mt-8">*and many more, these are just one of my best reads</p>
+                <BookSection category="Dev" books={profile.library.dev} />
+                <BookSection category="Casual Reads" books={profile.library.casual} />
+                <p className="text-xs text-slate-400 italic mt-8">{profile.library.note}</p>
             </div>
         </section>
     );

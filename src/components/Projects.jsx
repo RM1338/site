@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import { profile } from '../data/profile';
 
 const ProjectCard = ({ title, description, tags, link, github }) => (
     <div className="group relative bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
@@ -30,36 +31,7 @@ const ProjectCard = ({ title, description, tags, link, github }) => (
 );
 
 const Projects = () => {
-    const projects = [
-        {
-            title: "Scribe",
-            description: "A cross-platform flutter project that aims to provide a seamless and intuitive experience for transcribing, summarizing and managing meeting recordings.",
-            tags: ["Flutter", "Whisper", "OpenAI v1", "Llama 3.2"],
-            link: "#",
-            github: "https://github.com/RM1338/Scribe"
-        },
-        {
-            title: "Swamoz AI",
-            description: "An open-source AI video dubbing platform for global creators. Features multi-language translation, voice cloning, and lip-sync synchronization.",
-            tags: ["React", "FFmpeg", "Whisper", "NLLB-200", "XTTS v2", "Wav2Lip", "PostgreSQL", "Redis"],
-            link: "#",
-            github: "https://github.com/RM1338/SwamozAI"
-        },
-        {
-            title: "Sevak",
-            description: "Collaborative task manager with real-time updates. specialized in productivity workflows with Kanban boards and calendar views.",
-            tags: ["n8n", "Llama 3.2", "OpenAI v1", "IRCTC Rapid API",  "Open Street Map API", "Open Weather Map API", "Twilio API"],
-            link: "#",
-            github: "https://github.com/RM1338/Sevak"
-        },
-        {
-            title: "AI Image Generator",
-            description: "Interface for generating images using Stable Diffusion API. Includes gallery and prompt history management.",
-            tags: ["React", "Node.js", "OpenAI API"],
-            link: "#",
-            github: "#"
-        }
-    ];
+    const projects = profile.projects;
 
     return (
         <section id="projects" className="py-12">

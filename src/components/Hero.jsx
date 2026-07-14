@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 import NeuralLandscape from './NeuralLandscape';
+import { profile } from '../data/profile';
+import { renderInline } from '../lib/richText';
 
 const Hero = () => {
     const [time, setTime] = useState(new Date());
@@ -25,10 +27,10 @@ const Hero = () => {
             >
                 <div className="space-y-2">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-slate-900 text-center whitespace-nowrap">
-                        Ronel Abraham Mathew
+                        {profile.name}
                     </h1>
                     <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-slate-400 font-sans text-[11px] md:text-xs font-medium tracking-wide">
-                        <span className="font-serif italic text-slate-500">/roʊˈnɛl/</span>
+                        <span className="font-serif italic text-slate-500">{profile.phonetic}</span>
                         <span>•</span>
                         <span>noun</span>
                         <span>•</span>
@@ -37,13 +39,11 @@ const Hero = () => {
                 </div>
 
                 <div className="space-y-6 text-lg md:text-xl text-slate-600 leading-relaxed font-normal text-left">
-                    <p>
-                        a software engineer and <a href="https://en.wikipedia.org/wiki/Product_design" target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-4 text-slate-900">product builder</a> with&nbsp;hands&nbsp; on experience&nbsp;in <br className="hidden md:block" />
-                        game development, programming, and building problem-solving products.
-                    </p>
-                    <p>
-                        a <a href="https://en.wikipedia.org/wiki/Polymath" target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-4 text-slate-900">polymath</a> who bridges code architecture with real-world projects to create engaging, scalable apps and workflows.
-                    </p>
+                    {profile.about.map((line, i) => (
+                        <p key={i}>
+                            {renderInline(line, { linkClass: 'underline decoration-slate-300 underline-offset-4 text-slate-900' })}
+                        </p>
+                    ))}
                 </div>
 
                 <div className="pt-4 text-left">
