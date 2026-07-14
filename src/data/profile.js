@@ -9,6 +9,7 @@
 export const profile = {
     name: 'Ronel Abraham Mathew',
     phonetic: '/roʊˈnɛl/',
+    resumeUrl: '/RonelAbrahamMathewResume.pdf',
 
     about: [
         `a software engineer and [product builder](https://en.wikipedia.org/wiki/Product_design) with hands on experience in game development, programming, and building problem-solving products.`,

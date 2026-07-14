@@ -128,6 +128,7 @@ const AgentView = () => {
                         <p>- Mail: [email](mailto:{profile.contact.email})</p>
                         <p>- LinkedIn: [{profile.contact.linkedin}]({profile.contact.linkedin})</p>
                         <p>- GitHub: [{profile.contact.github}]({profile.contact.github})</p>
+                        <p>- Resume: [Download CV]({profile.resumeUrl})</p>
                     </div>
                 </section>
 
