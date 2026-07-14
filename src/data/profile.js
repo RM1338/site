@@ -12,7 +12,7 @@ export const profile = {
     resumeUrl: '/RonelAbrahamMathewResume.pdf',
 
     about: [
-        `a software engineer and [product builder](https://en.wikipedia.org/wiki/Product_design) with hands on experience in game development, programming, and building problem-solving products.`,
+        `a software engineer and [product builder](https://en.wikipedia.org/wiki/Product_design) with hands on experience in agentic AI, programming, and building problem-solving products.`,
         `a [polymath](https://en.wikipedia.org/wiki/Polymath) who bridges code architecture with real-world projects to create engaging, scalable apps and workflows.`,
     ],
 
